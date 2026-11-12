@@ -2,7 +2,7 @@
 
 **Lead Unity & AI Gameplay Systems Engineer | Technical Product Leader**
 
-I design and ship production-ready Unity games, intelligent AI/NPC architectures, and high-performance WebGL applications. Over the past 6+ years, I have architected and deployed cross-platform mobile games, top-ranked puzzle titles, 3D idle tycoons, and playable WebGL browser simulations reaching millions of sessions.
+I design and ship production-ready Unity games, intelligent AI/NPC architectures, and high-performance WebGL applications. Over the past 10+ years, I have architected and deployed cross-platform mobile games, top-ranked puzzle titles, 3D idle tycoons, and playable WebGL browser simulations.
 
 - 🌐 **Portfolio & Engineering Architecture**: [eshannaithani.com](https://www.eshannaithani.com?utm_source=github&utm_medium=profile&utm_campaign=bio)
 - 🎮 **Interactive Unity 6 WebGL Lab**: [Playable AI NPC System & Architecture](https://www.eshannaithani.com/labs/ai-npc-system/architecture?utm_source=github&utm_medium=profile&utm_campaign=ai_npc_lab)
@@ -15,8 +15,8 @@ I design and ship production-ready Unity games, intelligent AI/NPC architectures
 
 - **Unity & Gameplay Systems (C# / Unity 6 / URP)**: Deterministic game loops, state machines (flat enum FSMs & hierarchical state machines), object pooling (`UnityEngine.Pool`), modular event buses, and custom C# physics queries.
 - **AI Gameplay Systems & Navigation**: 5-state NPC perception pipelines (hearing, vision cones, line-of-sight raycasts), dynamic NavMesh pathfinding (`com.unity.ai.navigation`), patrol hysteresis, combat target evaluation, and tactical retreat behaviors.
-- **Mobile Game Performance & Memory Optimization**: Profiling on physical devices via Unity Profiler, Memory Profiler, and Profile Analyzer. IL2CPP managed stripping, ASTC hardware texture compression, zero-allocation hot paths, URP SRP Batcher integration, and thermal throttling triage.
-- **Unity WebGL & Browser Engineering**: Sub-15 MB initial loader shells, Wasm heap budgeting, Brotli/Gzip content encoding, `next.config.ts` headers, bidirectional C# ↔ JavaScript `.jslib` bridges, and leak-free `createUnityInstance` lifecycle cleanup in React & Next.js.
+- **Mobile Game Performance & Memory Optimization**: Profiling on physical devices via Unity Profiler, Memory Profiler, and Profile Analyzer. IL2CPP managed stripping, ASTC hardware texture compression, minimal-allocation hot paths, URP SRP Batcher integration, and thermal throttling triage.
+- **Unity WebGL & Browser Engineering**: Compact initial loader shells, Wasm heap budgeting, Brotli/Gzip content encoding, `next.config.ts` headers, bidirectional C# ↔ JavaScript `.jslib` bridges, and robust `createUnityInstance` lifecycle cleanup and Canvas unmounting in React & Next.js.
 - **Monetization & Analytics Infrastructure**: GameAnalytics, Firebase Crashlytics, IL2CPP symbolication, IronSource / LevelPlay mediation, Unity IAP 5 receipt validation, and GA4 telemetry funnels.
 - **Technical Product Management**: End-to-end game production, roadmap budgeting, sprint management, store compliance (Google Play Console, Apple App Store Connect), and CI/CD build automation.
 
@@ -26,7 +26,7 @@ I design and ship production-ready Unity games, intelligent AI/NPC architectures
 
 | Game / Project | Platforms | Architecture & Key Deliverables | Play / Read Case Study |
 | :--- | :--- | :--- | :--- |
-| **Bird Sort Mania** | Android, WebGL (GamePix) | Built in 20 calendar days on a \$6k budget. Pure C# LIFO branch-stack state machine, command-pattern undo history, sub-15 MB WebGL loader shell. | [Google Play](https://play.google.com/store/apps/details?id=com.Metalityx.ballPuzzle) • [GamePix WebGL](https://www.gamepix.com/play/bird-sorting-puzzle-origin) • [Read Architecture Case Study](https://www.eshannaithani.com/blogs/how-i-built-a-production-ready-unity-game-in-20-days-using-ai?utm_source=github&utm_medium=profile&utm_campaign=bird_sort_case_study) |
+| **Bird Sort Mania** | Android, WebGL (GamePix) | Built in 20 calendar days on a \$6k budget. Pure C# LIFO branch-stack state machine, command-pattern undo history, compact WebGL loader shell. | [Google Play](https://play.google.com/store/apps/details?id=com.Metalityx.ballPuzzle) • [GamePix WebGL](https://www.gamepix.com/play/bird-sorting-puzzle-origin) • [Read Architecture Case Study](https://www.eshannaithani.com/blogs/how-i-built-a-production-ready-unity-game-in-20-days-using-ai?utm_source=github&utm_medium=profile&utm_campaign=bird_sort_case_study) |
 | **Restaurant RUSH: Idle Tycoon** | iOS, Android, WebGL | Cross-platform 3D idle tycoon. Deterministic offline earnings curves, upgrade state persistence, URP Simple Lit SRP batching, and dynamic UI sub-canvases. | [App Store](https://apps.apple.com/us/app/restaurant-rush-idle-tycoon/id6747574665) • [Google Play](https://play.google.com/store/apps/details?id=com.Metalityx.RestaurantRush) • [GamePix WebGL](https://www.gamepix.com/play/restaurant-rush-idle-tycoon) |
 | **Pet Hero: Animal Hospital** | iOS, Android | Medical simulation game with multi-stage patient treatment pipelines, interactive mini-games, and hybrid ad/IAP monetization. | [App Store](https://apps.apple.com/us/app/pet-hero-animal-hospital/id6745875482) • [Google Play](https://play.google.com/store/apps/details?id=com.metalityx.petHero) |
 | **Buffalo Billionaire** | iOS, Android | Casino social simulation with high-frequency reel animation state machines, deterministic payout math, and retention event funnels. | [App Store](https://apps.apple.com/us/app/buffalo-billionaire/id6765645979) • [Google Play](https://play.google.com/store/apps/details?id=com.metalityx.BB) |
@@ -48,7 +48,6 @@ Here are open-source automation tools and developer skills I have published for 
 ## 📬 Connect & Collaborate
 
 - **Personal Portfolio**: [eshannaithani.com](https://www.eshannaithani.com?utm_source=github&utm_medium=profile&utm_campaign=portfolio_footer)
-- **LinkedIn**: [linkedin.com/in/eshannaithani](https://www.linkedin.com/in/eshannaithani)
 - **Email**: [eshan@metalityx.com](mailto:eshan@metalityx.com)
 - **App Store Developer**: [Apple App Store Profile](https://apps.apple.com/us/developer/eshan-naithani/id1814316548)
 - **Google Play Developer**: [Google Play Store Profile](https://play.google.com/store/apps/dev?id=6769623509555590901)
